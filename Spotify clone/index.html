@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spotify® Music</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bootstrap-grid.css" />
+	<link rel="stylesheet" href="css/bootstrap-reboot.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+
+<style type="text/css">
+.bg-black {
+	background-color: #000 !important;
+}
+
+.shadow-in {
+   box-shadow: inset 0 0 10px #000000 !important;
+   margin-top: 5px solid red !important;
+   border-radius: 50px !important;
+}
+
+.background{
+	background-image: url(images/background_black_flip.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card-img-top {
+	border-radius: 5px 5px 0px 0px !important;
+
+}
+
+.card {
+	background-color: rgba(0,0,0,0) !important;
+	box-shadow: 20px 15px 25px 0px rgba(0,0,0,0.75) !important;
+
+	
+}
+
+.card-body {
+	background-color: rgba(0,0,0,0.9) !important;
+	border-radius: 0px 0px 5px 5px !important;
+	color: #fff;
+	box-shadow: inset 0 0 5px #1DB954 !important;
+}
+
+.spot-button{
+	background-color: #1DB954 !important;
+	color: #fff	!important;
+	border: 1px solid #1DB954 !important;
+	font-size: bold !important;
+}
+
+
+.shd-25 {
+box-shadow: inset 0 0 25px #FFF !important;
+}
+
+.fa {
+
+  padding: 0px;
+  padding-top: 17.5px;
+  border-radius: 40px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  margin: 6.5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+  background-color: #6fff4f;
+}
+
+
+.fa-facebook {
+  background: #1DB954;
+  color: white;
+}
+
+.fa-twitter {
+  background: #1DB954;
+  color: white;
+}
+
+.fa-instagram {
+  background: #1DB954;
+  color: white;
+}
+
+.fa-google-plus {
+  background: #1DB954;
+  color: white;
+}
+
+
+.carousel-item:before {
+	box-shadow: inset 0 0 50px #000 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+
+</style>
+
+<body class="background ">
+
+<section>
+	<nav class="navbar shadow fixed-top navbar-expand-lg navbar-dark bg-black ">
+	 <a class="navbar-brand h1 mb-0" href="#">
+	 	<img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+	 	Spotify® Premium
+	 </a>
+	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+	 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+	 	<span class="navbar-toggler-icon"></span>
+	 </button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+	      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+	      <a class="nav-item nav-link" href="login.html">Entrar</a>
+	      <a class="nav-item nav-link" href="cadastro.html">Cadastre-se</a>
+		</div>
+	</div>
+	</nav>
+</section>
+
+<section>
+<div class="container mt-5 shadow-lg ">
+	<div class="row">	
+		<div class="col-md-12 p-0 m-0">	
+		
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">  
+		      <img class="d-block w-100" src="images/ads1.png" alt="Primeiro Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="images/ads2.png" alt="Segundo Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="images/ads3.png" alt="Terceiro Slide">
+		    </div>
+		  </div>
+		</div>
+
+	  </div>
+	  </div>	
+</div>																																											
+</section>
+
+
+<div class="container pt-4 pb-4 text-center text-light" style="background-image: linear-gradient(#000, rgba(0,0,0,0.0)) !important;">
+	<h2 > Ouça as Melhores Músicas 🎧 </h2>
+	<a href="home.html" style="width: 60%; margin: 0 auto;" class="btn btn-primary mt-3 spot-button d-flex font-weight-bold justify-content-center"> Vamos Curtir? </a>
+</div>
+
+
+<section class="mt-0">
+<div class="container ">
+
+	<div class="row">
+  		<div class="col-md-12 p-0 mt-1 d-flex justify-content-center ">	
+			<div class="card" style="width: 90%;">
+			  <img class="card-img-top" src="images/person1.jpg" alt="Imagem de capa do card">
+			  <div class="card-body shadow-sm">
+			    <h5 class="card-title text-center">Lil Nas X</h5>
+			    <p class="card-text">Montero Lamar Hill, conhecido profissionalmente como Lil Nas X, é um rapper, cantor e compositor americano. Ele chamou a atenção internacional pelo seu single de country rap "Old Town Road".</p>
+			    <a href="login.html" class="btn btn-primary spot-button d-flex justify-content-center">Entrar</a>
+  			</div>
+		</div>
+		</div>
+
+  		<div class="col-md-12 p-0 mt-4 d-flex justify-content-center ">	
+			<div class="card" style="width: 90%;">
+			  <img class="card-img-top" src="images/person2.jpg" alt="Imagem de capa do card">
+			  <div class="card-body shadow-sm">
+			    <h5 class="card-title text-center">Drake</h5>
+			    <p class="card-text">Aubrey Drake Graham, conhecido pelo seu nome artístico Drake, é um rapper, cantor, compositor, produtor musical, ator e empresário canadense.</p>
+			    <a href="login.html" class="btn btn-primary bg-black spot-button d-flex justify-content-center">Cadastre-se</a>
+  			</div>
+		</div>
+		</div>
+
+  		<div class="col-md-12 p-0 mt-4 mb-5 d-flex justify-content-center ">	
+			<div class="card" style="width: 90%;">
+			  <img class="card-img-top" src="images/person3.jpg" alt="Imagem de capa do card">
+			  <div class="card-body shadow-sm">
+			    <h5 class="card-title text-center">Anitta</h5>
+			    <p class="card-text">Larissa de Macedo Machado, mais conhecida pelo nome artístico Anitta, é uma cantora, compositora, atriz, apresentadora e produtora brasileira.</p>
+			    <a href="login.html" class="btn btn-primary spot-button d-flex justify-content-center">Junte-se a Nós</a>
+  			</div>
+		</div>
+		</div>
+
+  	</div>
+</div>	
+</section>
+
+<section>
+<footer>
+  <div class="container page-footer bg-black mt-0 text-light " style= "border-top: 1px solid #1DB954;">
+
+ 
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 pt-4">
+  	© 2019 Copyright: SECCIM - Universidade Federal Rural do Rio de Janeiro
+  </div>
+
+    <div class="row d-flex pt-0 pb-4 justify-content-center">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-google-plus"></a>
+
+    </div>	
+
+
+ </div>
+</footer>
+</section>
+
+</body>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+</html>
